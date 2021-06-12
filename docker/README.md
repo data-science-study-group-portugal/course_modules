@@ -1,7 +1,7 @@
 # Welcome to the Docker module!
 
 ## Instructions
-Please clone this folder to your local machine (or download it as a ZIP if you're not comfortable with git yet). Then, try to run the Python script in these two ways:
+Please clone this repository to your local machine (or download it as a ZIP if you're not comfortable with git yet). Then, try to run the Python script in these two ways:
 - `python welcome.py` - this should throw an error because of a package called `art` which you don't have locally
 - `docker build . --tag docker_demo` and then `docker run docker_demo` - this should work
 
