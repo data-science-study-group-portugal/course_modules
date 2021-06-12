@@ -41,3 +41,6 @@ Create a Dockerfile, plus any necessary extra files you need, to create the data
 
 ## Reading materials
 https://www.freecodecamp.org/news/the-docker-handbook/
+
+### Task 2
+Do the same as task 1, but use `docker-compose` to have the SQL database and the Python code as two separate applications. See more here: https://docs.docker.com/compose/
