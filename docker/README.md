@@ -21,10 +21,22 @@ This is a very silly example, but you can package whole web applications which m
 ## Tasks
 
 ### Task 1
-The goal of this module is to containerize the SQL code you did before. Create a Dockerfile, plus any necessary extra files you need, to create the database and then execute a Python script to run SQL queries.
+The goal of this module is to containerize the SQL code you did before using Docker. Your application should do the following:
+1. Use an appropriate `FROM` starting image.
+2. Download the citations file from the webpage. Look at the Linux command `curl`: http://manpages.ubuntu.com/manpages/trusty/man1/curl.1.html
+3. Create the SQL database using the code you already did before. Recall that you should create two tables:
+- One where each row is one paper
+- One where each row is one citation
+4. Finally, use Python to query the SQL database and print the answers to the following questions. You should use a single query for each question.
+- Which paper has the longest title?
+- Which paper has the most citations?
+- What is the title of the paper with the most citations?
+
+Create a Dockerfile, plus any necessary extra files you need, to create the database and then execute a Python script to run SQL queries.
 
 #### Acceptance criteria
-Two other students managed to run your notebook without any help from you. They just read your README, clone your repo, and it magically works.
+- Your application uses Docker + some code on Github. You cannot ask people to install anything on their machines apart from Docker.
+- Two other students managed to run your application without any help from you. They just read your README, clone your repo, run the appropriate `docker build` and `docker run` commands and it magically works.
 
 ## Reading materials
 https://www.freecodecamp.org/news/the-docker-handbook/
