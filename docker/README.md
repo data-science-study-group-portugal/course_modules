@@ -24,9 +24,11 @@ This is a very silly example, but you can package whole web applications which m
 The goal of this module is to containerize the SQL code you did before using Docker. Your application should do the following:
 1. Use an appropriate `FROM` starting image.
 2. Download the citations file from the webpage. Look at the Linux command `curl`: http://manpages.ubuntu.com/manpages/trusty/man1/curl.1.html
-3. Create the SQL database using the code you already did before. Recall that you should create two tables:
-- One where each row is one paper (table 1)
-- One where each row is one citation (table 2)
+3. Create the SQL database using the code you already did before.
+- Recall that you should use one of the datasets from the citation network page: https://www.aminer.org/citation. Earlier versions are smaller but use a weird file format, later versions have a better format but are larger. You choose. :)
+- Then write code to create two tables:
+-- One where each row is one paper (table 1)
+-- One where each row is one citation (table 2)
 4. Finally, use Python to query the SQL database and print the answers to the following questions. For each question, you can only use SQL, and you must use a single query for each question; you cannot run multiple queries per question.
 - Which paper has the most citations? (only uses table 2)
 - Which paper has the first title in alphabetical order? (only uses table 1)
