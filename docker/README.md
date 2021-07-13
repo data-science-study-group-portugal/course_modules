@@ -16,7 +16,7 @@ This might seem pointless, but something very important happened. We managed to 
 
 Docker does 'containerization' - it packages the application you want to run (the `welcome.py` script) with all its dependencies. If you inspect the `Dockerfile` you'll see that it uses an image which includes Python: `FROM python:3.8`. It also installs the `art` package using a `pip` command.
 
-This is a very silly example, but you can package whole web applications which might include a database to store user information, a webserver. Even in academia, instead of having Python scripts laying around which will stop working once you upgrade your OS and might not work in another researcher's machine, you can package a Jupyter Notebook into a Docker application to make sure someone else can run it.
+This is a very silly example, but you can package whole web applications which might include a database to store user information, a webserver, some separate system to train Machine Learning models, etc. Even in academia, instead of having Python scripts laying around which will stop working once you upgrade your OS and might not work in another researcher's machine, you can package a Jupyter Notebook into a Docker application to make sure someone else can run it.
 
 ## Tasks
 
