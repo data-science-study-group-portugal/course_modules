@@ -13,10 +13,11 @@ Unlike the previous module where you were following the exercises of a book, in 
 1. Start by installing [Jupyter](https://jupyter.org/install), [Pandas](https://pandas.pydata.org/docs/getting_started/install.html#installing-from-pypi) (note that you're probably installing with PyPI, not with Anaconda), and [Plotly](https://plotly.com/python/getting-started/).
 2. Next, go to Kaggle and have a look at the [Titanic dataset](https://www.kaggle.com/c/titanic/data). For now, use only the `train.csv` file. This is the data that you will be studying in this exercise.
 
-## Goals
 The dataset you downloaded contains the following information:
 - Passenger information such as gender, age, cabin type (1st, 2nd, or 3rd class), etc
 - A boolean column representing whether they survived the Titanic disaster or not
+
+## Exercises
 Your goal is to answer the following questions:
 
 - Q1: What's the average age of all Titanic passengers?
@@ -42,3 +43,8 @@ TODO
 
 # 03.3: Lending Club Dataset
 TODO
+
+# Learning Materials
+You're welcome to first do a tutorial on Jupyter, Pandas or Plotly (or more than one), but for this exercise try to get into the habit of searching online for answers. For example, if you don't know how to import a CSV into pandas, try searching "how to import csv into python pandas". If you don't know how to compute the average of a column, search for that, and so on.
+
+If you get stuck, ask for help on Slack. Learning the right balance between "I should search online for this" and "I've been already stuck for hours, time to ask for help" is part of your training too.
