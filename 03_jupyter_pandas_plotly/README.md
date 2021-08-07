@@ -18,7 +18,7 @@ The dataset you downloaded contains the following information:
 - A boolean column representing whether they survived the Titanic disaster or not
 
 ## Exercises
-Your goal is to answer the following questions:
+Your goal is to answer the following questions. Use Pandas to manipulate the data. Questions 1, 2 and 3 can be answered just with a number, question 4 asks you to produce a new file and a plot. Question 5 is more open-ended and plots are the main tool for it.
 
 - Q1: What's the average age of all Titanic passengers?
 - Q2: What's the average age of the passengers who did not survive?
@@ -36,7 +36,9 @@ Female,10-20,CCC
 ...
 Female,90-100,DDD
 ```
-where XXX,YYY,ZZZ,AAA,BBB,CCC,DDD are the survival rates for people of that sex and AgeGroup.
+where XXX,YYY,ZZZ,AAA,BBB,CCC,DDD are the survival rates for people of that sex and AgeGroup. Create also a graph which appropriately represents the survival by gender and AgeGroup.
+
+- *Q5: What else can you find about the data?* (this is what's called Exploratory Data Analysis: exploring the data without specific questions in mind)
 
 # 03.2: Wisconsin Breast Cancer Dataset
 TODO
