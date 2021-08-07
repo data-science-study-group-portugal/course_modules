@@ -19,10 +19,10 @@ The dataset you downloaded contains the following information:
 - A boolean column representing whether they survived the Titanic disaster or not
 Your goal is to answer the following questions:
 
-Q1: What's the average age of all Titanic passengers?
-Q2: What's the average age of the passengers who did not survive?
-Q3: What is the fraction of survivors within women aged 40 and over?
-Q4: Let's call AgeGroup the decade of the person's age. So people aged [0,10[ belong to one AgeGroup, people aged [10,20[ belong to another AgeGroup, and so on. Produce a new CSV with the following format:
+- Q1: What's the average age of all Titanic passengers?
+- Q2: What's the average age of the passengers who did not survive?
+- Q3: What is the fraction of survivors within women aged 40 and over?
+- Q4: Let's call AgeGroup the decade of the person's age. So people aged [0,10[ belong to one AgeGroup, people aged [10,20[ belong to another AgeGroup, and so on. Produce a new CSV with the following format:
 ```
 Gender,AgeGroup,SurvivalRate
 Male,0-10,XXX
